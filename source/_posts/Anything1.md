@@ -6,5 +6,11 @@ tags:
 categories: 随笔
     
 ---
+<blockquote class="blockquote-center">blah blah blah</blockquote>
 
+<!-- 标签 方式，要求版本在0.4.5或以上 -->
+{% centerquote %}blah blah blah{% endcenterquote %}
+
+<!-- 标签别名 -->
+{% cq %} blah blah blah {% endcq %}
 # 北京
