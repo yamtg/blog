@@ -13,7 +13,7 @@ comments: true
 ## Double Check Locking 双检查锁机制
 
 为了达到线程安全，又能提高代码执行效率，我们这里可以采用DCL的双检查锁机制来完成，代码实现如下：
-、
+、、、
 
 public class MySingleton {
 	//使用volatile关键字保其可见性
@@ -38,7 +38,7 @@ public class MySingleton {
 	}
 }
 
-、
+、、、
 
 ## 使用静态内置类实现单例模式
 
