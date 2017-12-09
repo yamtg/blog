@@ -349,7 +349,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: Zero
   count: true
 
@@ -380,7 +380,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC8zMjI2NS84ODI5
 
 # Baidu Share
 # Available value:
