@@ -39,6 +39,8 @@ public class MySingleton {
 }
 {% endcodeblock %}
 
+<!-- more -->
+
 ## 使用静态内置类实现单例模式
 
 DCL解决了多线程并发下的线程安全问题，其实使用其他方式也可以达到同样的效果，代码实现如下：
