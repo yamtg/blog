@@ -14,7 +14,7 @@ comments: true
 
 为了达到线程安全，又能提高代码执行效率，我们这里可以采用DCL的双检查锁机制来完成，代码实现如下：
 
-{% codeblock lang:java %}
+``` java
 public class MySingleton {
 	//使用volatile关键字保其可见性
 	volatile private static MySingleton instance = null;
@@ -37,7 +37,7 @@ public class MySingleton {
 		return instance;
 	}
 }
-{% endcodeblock %}
+```
 
 <!-- more -->
 
@@ -142,3 +142,4 @@ class MySingleton{//需要获实现单例的类，比如数据库连接Connectio
     public MySingleton(){}   
 } 
 {% endcodeblock %}
+
