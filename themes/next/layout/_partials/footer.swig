@@ -7,7 +7,9 @@
   </span>
   <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright || config.author }}</span>
   <div>
-  备案号：京ICP备16013429号
+  备案号：<a href="http://www.beian.miit.gov.cn">京ICP备16013429号</a>
+  </a>
+  
   </div>
   {% if theme.post_wordcount.totalcount %}
     <span class="post-meta-divider">|</span>
