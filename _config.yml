@@ -78,5 +78,5 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/yamtg/yamtg.git
+  repo: https://github.com/yamtg/yamtg.github.io.git
   branch: master
