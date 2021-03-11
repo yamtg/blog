@@ -1,7 +1,7 @@
 ---
-title: 分类
+title: 归档
 date: 2017-12-09 20:15:18
-type: "categories"
-top_img: /img/q3.jpg
+type: "archives"
+top_img: /img/q4.jpg
 ---
 <!-- https://butterfly.js.org/posts/dc584b87/#Front-matter -->
